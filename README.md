@@ -9,7 +9,7 @@ I added other languages.
 
 Build:
 
-ant debug
+ant release
 
 Requires:
 - Android SDK
