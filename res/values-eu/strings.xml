@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Faseak</string><string name="phase_new_moon">Ilberria</string><string name="phase_first_quarter">Lehen Hiruhilekoa</string><string name="phase_full_moon">Ilargi betea</string><string name="phase_third_quarter">Hirugarren Hiruhilekoa</string><string name="phase_waxing_crescent">Argizari Ilargia</string><string name="phase_waxing_gibbous">Argizaria Gibbous</string><string name="phase_waning_gibbous">Gibosa galtzen</string><string name="phase_waning_crescent">Ilargierdi beherakorra</string></resources>

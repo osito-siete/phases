@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Fazalar</string><string name="phase_new_moon">Yeni Ay</string><string name="phase_first_quarter">Birinci rüb</string><string name="phase_full_moon">Tam ay</string><string name="phase_third_quarter">Üçüncü Rüb</string><string name="phase_waxing_crescent">Balmumu Aypara</string><string name="phase_waxing_gibbous">Balmumu Gibbous</string><string name="phase_waning_gibbous">Gibbous zəifləyir</string><string name="phase_waning_crescent">Sönən Aypara</string></resources>

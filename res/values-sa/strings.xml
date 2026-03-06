@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">चरणाः</string><string name="phase_new_moon">अमावस्या</string><string name="phase_first_quarter">प्रथम त्रैमासिक</string><string name="phase_full_moon">पूर्णिमा</string><string name="phase_third_quarter">तृतीय त्रैमासिक</string><string name="phase_waxing_crescent">मोमकरण अर्धचन्द्र</string><string name="phase_waxing_gibbous">मोमकरण गिब्बस</string><string name="phase_waning_gibbous">क्षीणः गिब्बसः</string><string name="phase_waning_crescent">क्षीणः अर्धचन्द्रः</string></resources>

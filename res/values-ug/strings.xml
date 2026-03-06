@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">باسقۇچلار</string><string name="phase_new_moon">يېڭى ئاي</string><string name="phase_first_quarter">بىرىنچى چارەك</string><string name="phase_full_moon">تولۇن ئاي</string><string name="phase_third_quarter">ئۈچىنچى چارەك</string><string name="phase_waxing_crescent">Waxing Crescent</string><string name="phase_waxing_gibbous">Waxing Gibbous</string><string name="phase_waning_gibbous">Waning Gibbous</string><string name="phase_waning_crescent">Waning Crescent</string></resources>

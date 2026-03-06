@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Faasid</string><string name="phase_new_moon">Noorkuu</string><string name="phase_first_quarter">Esimene kvartal</string><string name="phase_full_moon">Täiskuu</string><string name="phase_third_quarter">Kolmas kvartal</string><string name="phase_waxing_crescent">Kasvav poolkuu</string><string name="phase_waxing_gibbous">Vahatamine Gibbous</string><string name="phase_waning_gibbous">Kahanev Gibbous</string><string name="phase_waning_crescent">Kahanev poolkuu</string></resources>

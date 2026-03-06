@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">matakai</string><string name="phase_new_moon">Sabuwar wata</string><string name="phase_first_quarter">Farko Kwata</string><string name="phase_full_moon">Cikakkun Wata</string><string name="phase_third_quarter">Kashi Na Uku</string><string name="phase_waxing_crescent">Kakin Karfi Cescent</string><string name="phase_waxing_gibbous">Girman Gibbous</string><string name="phase_waning_gibbous">Wani Gibbous</string><string name="phase_waning_crescent">Watang Cescent</string></resources>

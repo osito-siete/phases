@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">fase</string><string name="phase_new_moon">Wulan anyar</string><string name="phase_first_quarter">Triwulan pisanan</string><string name="phase_full_moon">Purnama</string><string name="phase_third_quarter">Triwulan Katelu</string><string name="phase_waxing_crescent">Waxing Crescent</string><string name="phase_waxing_gibbous">Waxing Gibbous</string><string name="phase_waning_gibbous">Waning Gibbous</string><string name="phase_waning_crescent">Waning Crescent</string></resources>

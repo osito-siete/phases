@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Áfangar</string><string name="phase_new_moon">Nýtt tungl</string><string name="phase_first_quarter">Fyrsta ársfjórðung</string><string name="phase_full_moon">Fullt tungl</string><string name="phase_third_quarter">Þriðji ársfjórðungur</string><string name="phase_waxing_crescent">Vaxandi hálfmáni</string><string name="phase_waxing_gibbous">Vaxandi Gibbous</string><string name="phase_waning_gibbous">Dvínandi Gibbous</string><string name="phase_waning_crescent">Minnkandi hálfmáni</string></resources>

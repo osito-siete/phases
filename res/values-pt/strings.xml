@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Fases</string><string name="phase_new_moon">Lua nova</string><string name="phase_first_quarter">Primeiro Trimestre</string><string name="phase_full_moon">Lua Cheia</string><string name="phase_third_quarter">Terceiro Trimestre</string><string name="phase_waxing_crescent">Crescente Crescente</string><string name="phase_waxing_gibbous">Depilação Gibosa</string><string name="phase_waning_gibbous">Minguante Giboso</string><string name="phase_waning_crescent">Crescente Minguante</string></resources>

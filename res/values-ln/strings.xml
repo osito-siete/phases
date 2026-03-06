@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Ba phases</string><string name="phase_new_moon">Sanza ya Sika</string><string name="phase_first_quarter">Trimestre ya liboso</string><string name="phase_full_moon">Sanza mobimba</string><string name="phase_third_quarter">Trimestre ya misato</string><string name="phase_waxing_crescent">Crescent ya kosala cire</string><string name="phase_waxing_gibbous">Gibbous ya kosala cire</string><string name="phase_waning_gibbous">Gibbous oyo azali kokita</string><string name="phase_waning_crescent">Crescent oyo ezali kokita</string></resources>

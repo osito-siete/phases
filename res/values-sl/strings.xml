@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Faze</string><string name="phase_new_moon">Nova luna</string><string name="phase_first_quarter">Prva četrtina</string><string name="phase_full_moon">polna luna</string><string name="phase_third_quarter">Tretja četrtina</string><string name="phase_waxing_crescent">Naraščajoči polmesec</string><string name="phase_waxing_gibbous">Voskanje Gibbous</string><string name="phase_waning_gibbous">Pojemajoči Gibbous</string><string name="phase_waning_crescent">Padajoči polmesec</string></resources>

@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Phases</string><string name="phase_new_moon">Neomeniae</string><string name="phase_first_quarter">Primum Quartum</string><string name="phase_full_moon">Plena Luna</string><string name="phase_third_quarter">Tertia Quarta</string><string name="phase_waxing_crescent">Crescens Crescent</string><string name="phase_waxing_gibbous">Crescens Gibbous</string><string name="phase_waning_gibbous">Waning Gibbous</string><string name="phase_waning_crescent">senescentem Crescent</string></resources>

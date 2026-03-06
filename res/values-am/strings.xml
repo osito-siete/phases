@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">ደረጃዎች</string><string name="phase_new_moon">አዲስ ጨረቃ</string><string name="phase_first_quarter">የመጀመሪያ ሩብ</string><string name="phase_full_moon">ሙሉ ጨረቃ</string><string name="phase_third_quarter">ሶስተኛ ሩብ</string><string name="phase_waxing_crescent">የሰም ጨረቃ</string><string name="phase_waxing_gibbous">እየሰከረ ጊቦስ</string><string name="phase_waning_gibbous">ዋንግ ጊቦስ</string><string name="phase_waning_crescent">የሚዋዥቅ ጨረቃ</string></resources>

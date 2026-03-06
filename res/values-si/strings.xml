@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">අදියර</string><string name="phase_new_moon">නව සඳ</string><string name="phase_first_quarter">පළමු කාර්තුව</string><string name="phase_full_moon">පූර්ණ චන්ද්රයා</string><string name="phase_third_quarter">තුන්වන කාර්තුව</string><string name="phase_waxing_crescent">Waxing Crescent</string><string name="phase_waxing_gibbous">Waxing Gibbous</string><string name="phase_waning_gibbous">ගිලිහෙන ගිබස්</string><string name="phase_waning_crescent">ක්‍රෙසන්ට් ක්ෂය වෙමින් පවතී</string></resources>

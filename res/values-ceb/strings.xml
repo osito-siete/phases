@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Mga hugna</string><string name="phase_new_moon">Bag-ong Bulan</string><string name="phase_first_quarter">Unang Kwarter</string><string name="phase_full_moon">Full Moon</string><string name="phase_third_quarter">Ikatulo nga Kwarter</string><string name="phase_waxing_crescent">Waxing Crescent</string><string name="phase_waxing_gibbous">Waxing Gibbous</string><string name="phase_waning_gibbous">Waning Gibbous</string><string name="phase_waning_crescent">Waning Crescent</string></resources>

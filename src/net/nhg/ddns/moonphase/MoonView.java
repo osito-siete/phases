@@ -6,6 +6,7 @@
 //
 package akk.astro.droid.moonphase;
 
+import net.nhg.ddns.moonphase.R;
 import android.content.Context;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
@@ -131,22 +132,20 @@ private MoonResult calculateMoonPhase() {
     return new MoonResult(phaseIndex, illumination, waxing);
 }
 
+
 private String getPhaseName(int index, double illumination, boolean waxing) {
 
+    if (index == 0) return getContext().getString(R.string.phase_new_moon);
+    if (index == 7) return getContext().getString(R.string.phase_first_quarter);
+    if (index == 14) return getContext().getString(R.string.phase_full_moon);
+    if (index == 21) return getContext().getString(R.string.phase_third_quarter);
 
-    if (index == 0) return getString(R.string.phase_new_moon);
-    if (index == 7) return getString(R.string.phase_first_quarter);
-    if (index == 14) return getString(R.string.phase_full_moon);
-    if (index == 21) return getString(R.string.phase_third_quarter);
+    if (index < 7) return getContext().getString(R.string.phase_waxing_crescent);
+    if (index < 14) return getContext().getString(R.string.phase_waxing_gibbous);
+    if (index < 21) return getContext().getString(R.string.phase_waning_gibbous);
 
-    if (index < 7) return getString(R.string.phase_waxing_crescent);
-    if (index < 14) return getString(R.string.phase_waxing_gibbous);
-    if (index < 21) return getString(R.string.phase_waning_gibbous);
-
-    return getString(R.string.phase_waning_crescent);
-
+    return getContext().getString(R.string.phase_waning_crescent);
 }
-
 
     private static class MoonResult {
         final int phaseIndex;

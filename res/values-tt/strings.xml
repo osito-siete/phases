@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Фазалар</string><string name="phase_new_moon">Яңа Ай</string><string name="phase_first_quarter">Беренче чирек</string><string name="phase_full_moon">Тулы Ай</string><string name="phase_third_quarter">Өченче чирек</string><string name="phase_waxing_crescent">Балавыз балыгы</string><string name="phase_waxing_gibbous">Гиббус балавызы</string><string name="phase_waning_gibbous">Гиббус</string><string name="phase_waning_crescent">Ай ярым</string></resources>

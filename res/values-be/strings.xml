@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Фазы</string><string name="phase_new_moon">Маладзік</string><string name="phase_first_quarter">Першая чвэрць</string><string name="phase_full_moon">Поўня</string><string name="phase_third_quarter">Трэцяя чвэрць</string><string name="phase_waxing_crescent">Нарастаючы паўмесяц</string><string name="phase_waxing_gibbous">Ваксаванне Gibbous</string><string name="phase_waning_gibbous">Змяншэнне Gibbous</string><string name="phase_waning_crescent">Змяншальны паўмесяц</string></resources>

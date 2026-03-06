@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">దశలు</string><string name="phase_new_moon">అమావాస్య</string><string name="phase_first_quarter">మొదటి త్రైమాసికం</string><string name="phase_full_moon">పౌర్ణమి</string><string name="phase_third_quarter">మూడవ త్రైమాసికం</string><string name="phase_waxing_crescent">వాక్సింగ్ చంద్రవంక</string><string name="phase_waxing_gibbous">వాక్సింగ్ గిబ్బస్</string><string name="phase_waning_gibbous">క్షీణిస్తున్న గిబ్బస్</string><string name="phase_waning_crescent">క్షీణిస్తున్న చంద్రవంక</string></resources>

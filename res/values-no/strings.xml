@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Faser</string><string name="phase_new_moon">Nymåne</string><string name="phase_first_quarter">Første kvartal</string><string name="phase_full_moon">Fullmåne</string><string name="phase_third_quarter">Tredje kvartal</string><string name="phase_waxing_crescent">Voksende halvmåne</string><string name="phase_waxing_gibbous">Voksende Gibbous</string><string name="phase_waning_gibbous">Avtagende Gibbous</string><string name="phase_waning_crescent">Avtagende halvmåne</string></resources>

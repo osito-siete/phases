@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Fázy</string><string name="phase_new_moon">Nový Mesiac</string><string name="phase_first_quarter">Prvý štvrťrok</string><string name="phase_full_moon">Spln mesiaca</string><string name="phase_third_quarter">Tretí štvrťrok</string><string name="phase_waxing_crescent">Voskový polmesiac</string><string name="phase_waxing_gibbous">Voskovanie Gibbous</string><string name="phase_waning_gibbous">Ubúdajúci Gibbous</string><string name="phase_waning_crescent">Ubúdajúci polmesiac</string></resources>

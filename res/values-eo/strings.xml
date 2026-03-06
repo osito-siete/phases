@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Fazoj</string><string name="phase_new_moon">Novluno</string><string name="phase_first_quarter">Unua Kvarono</string><string name="phase_full_moon">Plena Luno</string><string name="phase_third_quarter">Tria Kvarono</string><string name="phase_waxing_crescent">Veksanta Lunarko</string><string name="phase_waxing_gibbous">Waxing Gibbous</string><string name="phase_waning_gibbous">Malkreskanta Giba</string><string name="phase_waning_crescent">Malkreskanta Lunarko</string></resources>

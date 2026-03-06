@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">المراحل</string><string name="phase_new_moon">القمر الجديد</string><string name="phase_first_quarter">الربع الأول</string><string name="phase_full_moon">اكتمال القمر</string><string name="phase_third_quarter">الربع الثالث</string><string name="phase_waxing_crescent">الهلال المصبح</string><string name="phase_waxing_gibbous">الصبح جيبوس</string><string name="phase_waning_gibbous">يتضاءل جيبوس</string><string name="phase_waning_crescent">الهلال المتضاءل</string></resources>

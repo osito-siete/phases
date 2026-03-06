@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Giai đoạn</string><string name="phase_new_moon">Trăng non</string><string name="phase_first_quarter">Quý I</string><string name="phase_full_moon">Trăng tròn</string><string name="phase_third_quarter">Quý 3</string><string name="phase_waxing_crescent">Lưỡi liềm sáp</string><string name="phase_waxing_gibbous">tẩy lông vượn</string><string name="phase_waning_gibbous">Vượn suy yếu</string><string name="phase_waning_crescent">Lưỡi liềm suy yếu</string></resources>

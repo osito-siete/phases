@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Fāzes</string><string name="phase_new_moon">Jauns Mēness</string><string name="phase_first_quarter">Pirmais ceturksnis</string><string name="phase_full_moon">Pilnmēness</string><string name="phase_third_quarter">Trešais ceturksnis</string><string name="phase_waxing_crescent">Augošs pusmēness</string><string name="phase_waxing_gibbous">Vaksācija Gibbous</string><string name="phase_waning_gibbous">Dilstošs Gibbous</string><string name="phase_waning_crescent">Dilstošs pusmēness</string></resources>

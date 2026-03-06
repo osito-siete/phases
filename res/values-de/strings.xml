@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Phasen</string><string name="phase_new_moon">Neumond</string><string name="phase_first_quarter">Erstes Viertel</string><string name="phase_full_moon">Vollmond</string><string name="phase_third_quarter">Drittes Viertel</string><string name="phase_waxing_crescent">Wachsender Halbmond</string><string name="phase_waxing_gibbous">Wachsender Gibbous</string><string name="phase_waning_gibbous">Abnehmender Gibbous</string><string name="phase_waning_crescent">Abnehmender Halbmond</string></resources>

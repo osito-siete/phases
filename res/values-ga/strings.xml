@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Céimeanna</string><string name="phase_new_moon">Gealach Nua</string><string name="phase_first_quarter">An Chéad Cheathrú</string><string name="phase_full_moon">Gealach Lán</string><string name="phase_third_quarter">An Tríú Ráithe</string><string name="phase_waxing_crescent">Corrán céirithe</string><string name="phase_waxing_gibbous">Waxing Gibbous</string><string name="phase_waning_gibbous">Gibbous uaigneach</string><string name="phase_waning_crescent">Corrán Éanlaithe</string></resources>

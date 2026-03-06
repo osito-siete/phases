@@ -1,2 +1,2 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="utf-8"?>
 <resources><string name="app_name">Fasi</string><string name="phase_new_moon">Luna Nuova</string><string name="phase_first_quarter">Primo quarto</string><string name="phase_full_moon">Luna piena</string><string name="phase_third_quarter">Terzo quarto</string><string name="phase_waxing_crescent">Mezzaluna ceretta</string><string name="phase_waxing_gibbous">Gibbosa ceretta</string><string name="phase_waning_gibbous">Gibbous calante</string><string name="phase_waning_crescent">Mezzaluna calante</string></resources>
