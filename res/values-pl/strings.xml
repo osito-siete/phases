@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Fazy</string><string name="phase_new_moon">Nówy księżyc</string><string name="phase_first_quarter">Pierwsza kwarta</string><string name="phase_full_moon">Pełnia księżyca</string><string name="phase_third_quarter">Trzeci kwartał</string><string name="phase_waxing_crescent">Woskujący Półksiężyc</string><string name="phase_waxing_gibbous">Woskowanie Gibbousa</string><string name="phase_waning_gibbous">Ubywający Gibbous</string><string name="phase_waning_crescent">Ubywający Półksiężyc</string></resources>

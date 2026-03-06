@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Fases</string><string name="phase_new_moon">Nuwe Maan</string><string name="phase_first_quarter">Eerste Kwartaal</string><string name="phase_full_moon">Volmaan</string><string name="phase_third_quarter">Derde Kwartaal</string><string name="phase_waxing_crescent">Waxing Crescent</string><string name="phase_waxing_gibbous">Waxing Gibbous</string><string name="phase_waning_gibbous">Afnemende Gibbous</string><string name="phase_waning_crescent">Afnemende halfmaan</string></resources>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Fazės</string><string name="phase_new_moon">Jaunatis</string><string name="phase_first_quarter">Pirmas ketvirtis</string><string name="phase_full_moon">Pilnatis</string><string name="phase_third_quarter">Trečiasis ketvirtis</string><string name="phase_waxing_crescent">Dylantis pusmėnulis</string><string name="phase_waxing_gibbous">Gibbous vaškavimas</string><string name="phase_waning_gibbous">Mažėjantis Gibbousas</string><string name="phase_waning_crescent">Mažėjantis pusmėnulis</string></resources>

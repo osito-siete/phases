@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Vaiheet</string><string name="phase_new_moon">Uusi kuu</string><string name="phase_first_quarter">Ensimmäinen vuosineljännes</string><string name="phase_full_moon">Täysikuu</string><string name="phase_third_quarter">Kolmas vuosineljännes</string><string name="phase_waxing_crescent">Kasvava Crescent</string><string name="phase_waxing_gibbous">Vahaus Gibbous</string><string name="phase_waning_gibbous">Hiipuva Gibbous</string><string name="phase_waning_crescent">Hiipuva Crescent</string></resources>

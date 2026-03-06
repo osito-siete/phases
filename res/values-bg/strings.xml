@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Фази</string><string name="phase_new_moon">Новолуние</string><string name="phase_first_quarter">Първа четвърт</string><string name="phase_full_moon">Пълнолуние</string><string name="phase_third_quarter">Трета четвърт</string><string name="phase_waxing_crescent">Нарастващ полумесец</string><string name="phase_waxing_gibbous">Нарастващ Gibbous</string><string name="phase_waning_gibbous">Намаляващ Гибъс</string><string name="phase_waning_crescent">Намаляващ полумесец</string></resources>

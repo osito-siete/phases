@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">ໄລຍະ</string><string name="phase_new_moon">ເດືອນໃໝ່</string><string name="phase_first_quarter">ໄຕມາດທໍາອິດ</string><string name="phase_full_moon">ເດືອນເຕັມ</string><string name="phase_third_quarter">ໄຕມາດທີສາມ</string><string name="phase_waxing_crescent">ຂີ້ເຜີ້ງ Crescent</string><string name="phase_waxing_gibbous">Waxing Gibbous</string><string name="phase_waning_gibbous">Waning Gibbous</string><string name="phase_waning_crescent">ວົງເດືອນຂ້າງ</string></resources>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Aşamalar</string><string name="phase_new_moon">Yeni ay</string><string name="phase_first_quarter">İlk Çeyrek</string><string name="phase_full_moon">Dolunay</string><string name="phase_third_quarter">Üçüncü Çeyrek</string><string name="phase_waxing_crescent">Ağda Hilal</string><string name="phase_waxing_gibbous">Ağdalı Kambur</string><string name="phase_waning_gibbous">Zayıflayan Kambur Kambur</string><string name="phase_waning_crescent">Azalan Hilal</string></resources>

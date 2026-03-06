@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Fases</string><string name="phase_new_moon">Lluna nova</string><string name="phase_first_quarter">Primer trimestre</string><string name="phase_full_moon">Lluna plena</string><string name="phase_third_quarter">Tercer trimestre</string><string name="phase_waxing_crescent">Creixent Creixent</string><string name="phase_waxing_gibbous">Gibosa creixent</string><string name="phase_waning_gibbous">Gibbous minvant</string><string name="phase_waning_crescent">Creixent minvant</string></resources>

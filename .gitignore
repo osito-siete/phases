@@ -1,2 +1,7 @@
+local.properties
+moon
+.classpath
+.gradle
+.project
 /bin
 /gen

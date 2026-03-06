@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Фазалар</string><string name="phase_new_moon">Жаңа ай</string><string name="phase_first_quarter">Бірінші тоқсан</string><string name="phase_full_moon">Толық ай</string><string name="phase_third_quarter">Үшінші тоқсан</string><string name="phase_waxing_crescent">Балауыз ай</string><string name="phase_waxing_gibbous">Балауыздан тазарту</string><string name="phase_waning_gibbous">Күйіп бара жатқан Гиббоус</string><string name="phase_waning_crescent">Жарты ай</string></resources>

@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">পর্যায়গুলি</string><string name="phase_new_moon">অমাবস্যা</string><string name="phase_first_quarter">প্রথম কোয়ার্টার</string><string name="phase_full_moon">পূর্ণিমা</string><string name="phase_third_quarter">তৃতীয় ত্রৈমাসিক</string><string name="phase_waxing_crescent">ওয়াক্সিং ক্রিসেন্ট</string><string name="phase_waxing_gibbous">Waxing Gibbous</string><string name="phase_waning_gibbous">ওয়েনিং গিবস</string><string name="phase_waning_crescent">ক্ষয়প্রাপ্ত ক্রিসেন্ট</string></resources>

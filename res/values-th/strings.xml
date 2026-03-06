@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">เฟส</string><string name="phase_new_moon">นิวมูน</string><string name="phase_first_quarter">ไตรมาสแรก</string><string name="phase_full_moon">พระจันทร์เต็มดวง</string><string name="phase_third_quarter">ไตรมาสที่สาม</string><string name="phase_waxing_crescent">แว็กซ์เสี้ยว</string><string name="phase_waxing_gibbous">แว็กซ์ Gibbous</string><string name="phase_waning_gibbous">จางหายไป Gibbous</string><string name="phase_waning_crescent">จันทร์เสี้ยวข้างแรม</string></resources>

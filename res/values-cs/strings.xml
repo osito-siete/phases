@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Fáze</string><string name="phase_new_moon">Novoluní</string><string name="phase_first_quarter">První čtvrtletí</string><string name="phase_full_moon">Úplněk</string><string name="phase_third_quarter">Třetí čtvrtletí</string><string name="phase_waxing_crescent">Dorůstající půlměsíc</string><string name="phase_waxing_gibbous">Voskování Gibbous</string><string name="phase_waning_gibbous">Ubývající Gibbous</string><string name="phase_waning_crescent">Ubývající půlměsíc</string></resources>

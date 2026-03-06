@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Φάσεις</string><string name="phase_new_moon">Νέα Σελήνη</string><string name="phase_first_quarter">Πρώτο τρίμηνο</string><string name="phase_full_moon">Πανσέληνος</string><string name="phase_third_quarter">Τρίτο Τρίμηνο</string><string name="phase_waxing_crescent">Ημισέληνος με κερί</string><string name="phase_waxing_gibbous">Αποτρίχωση Gibbous</string><string name="phase_waning_gibbous">Waning Gibbous</string><string name="phase_waning_crescent">Ημισέληνος που εξαφανίζεται</string></resources>

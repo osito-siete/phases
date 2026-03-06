@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">கட்டங்கள்</string><string name="phase_new_moon">அமாவாசை</string><string name="phase_first_quarter">முதல் காலாண்டு</string><string name="phase_full_moon">முழு நிலவு</string><string name="phase_third_quarter">மூன்றாம் காலாண்டு</string><string name="phase_waxing_crescent">வளர்பிறை பிறை</string><string name="phase_waxing_gibbous">வளர்பிறை கிப்பஸ்</string><string name="phase_waning_gibbous">வானிங் கிப்பஸ்</string><string name="phase_waning_crescent">மறையும் பிறை</string></resources>

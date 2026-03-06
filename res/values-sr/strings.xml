@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">Фазе</string><string name="phase_new_moon">Млад Месец</string><string name="phase_first_quarter">Фирст Куартер</string><string name="phase_full_moon">Фулл Моон</string><string name="phase_third_quarter">Трећа четвртина</string><string name="phase_waxing_crescent">Вакинг Цресцент</string><string name="phase_waxing_gibbous">Вакинг Гиббоус</string><string name="phase_waning_gibbous">Ванинг Гиббоус</string><string name="phase_waning_crescent">Ванинг Цресцент</string></resources>

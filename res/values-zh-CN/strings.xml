@@ -1,0 +1,2 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources><string name="app_name">阶段</string><string name="phase_new_moon">新月</string><string name="phase_first_quarter">第一季度</string><string name="phase_full_moon">满月</string><string name="phase_third_quarter">第三季度</string><string name="phase_waxing_crescent">打蜡新月形</string><string name="phase_waxing_gibbous">打蜡凸凸</string><string name="phase_waning_gibbous">渐亏凸月</string><string name="phase_waning_crescent">渐亏新月</string></resources>

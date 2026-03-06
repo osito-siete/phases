@@ -1,4 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">Moon Phase</string>
+    <string name="app_name">Phases</string>
+
+    <string name="phase_new_moon">New Moon</string>
+    <string name="phase_first_quarter">First Quarter</string>
+    <string name="phase_full_moon">Full Moon</string>
+    <string name="phase_third_quarter">Third Quarter</string>
+
+    <string name="phase_waxing_crescent">Waxing Crescent</string>
+    <string name="phase_waxing_gibbous">Waxing Gibbous</string>
+    <string name="phase_waning_gibbous">Waning Gibbous</string>
+    <string name="phase_waning_crescent">Waning Crescent</string>
 </resources>
