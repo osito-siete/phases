@@ -1,0 +1,1 @@
+Shows a view of the Moon, providing information about the current moon phase using photographs.
