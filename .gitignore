@@ -1,5 +1,6 @@
 local.properties
 moon
+.envrc
 .classpath
 .gradle
 .project
