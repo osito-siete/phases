@@ -118,7 +118,7 @@ private MoonResult calculateMoonPhase() {
     }
 
     // Map to 0–28
-    int phaseIndex = (int)Math.round((lunarAge / SYNODIC_MONTH) * 28.0);
+    int phaseIndex = (int)Math.floor((lunarAge / SYNODIC_MONTH) * 29.0);
 
     if (phaseIndex < 0) phaseIndex = 0;
     if (phaseIndex > 28) phaseIndex = 28;
