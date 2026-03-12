@@ -1,18 +1,9 @@
-//
-// MoonPhase.java:
-// Calculate the phase of the moon.
-//    Copyright 2014 by Audrius Meskauskas
-// You may use or distribute this code under the terms of the GPLv3
-//
 package akk.astro.droid.moonphase;
 
 import net.nhg.ddns.moonphase.R;
+
 import android.content.Context;
-import android.graphics.Bitmap;
-import android.graphics.BitmapFactory;
-import android.graphics.Canvas;
-import android.graphics.Color;
-import android.graphics.Paint;
+import android.graphics.*;
 import android.util.AttributeSet;
 import android.view.View;
 
@@ -20,22 +11,46 @@ public class MoonView extends View {
 
     private final Paint paint = new Paint(Paint.ANTI_ALIAS_FLAG);
 
-    // Synodic month length
+    // Astronomical constants
     private static final double SYNODIC_MONTH = 29.530588853;
+    private static final double KNOWN_NEW_MOON_JD = 2451550.26;
+    private static final double UNIX_EPOCH_JD = 2440587.5;
+    private static final double MILLIS_PER_DAY = 86400000.0;
 
-    // Known new moon reference (2000-01-06 18:14 UTC)
-    private static final double KNOWN_NEW_MOON_JD = 2451550.1;
+    private Bitmap[] moonBitmaps = new Bitmap[29];
+    private Bitmap currentBitmap;
 
     public MoonView(Context context) {
         super(context);
+        init();
     }
 
     public MoonView(Context context, AttributeSet attrs) {
         super(context, attrs);
+        init();
     }
 
     public MoonView(Context context, AttributeSet attrs, int defStyle) {
         super(context, attrs, defStyle);
+        init();
+    }
+
+    private void init() {
+        paint.setTextAlign(Paint.Align.CENTER);
+        loadMoonImages();
+    }
+
+    private void loadMoonImages() {
+        for (int i = 0; i < 29; i++) {
+            int resId = getResources().getIdentifier(
+                    "moon_" + i,
+                    "drawable",
+                    getContext().getPackageName());
+
+            if (resId != 0) {
+                moonBitmaps[i] = BitmapFactory.decodeResource(getResources(), resId);
+            }
+        }
     }
 
     @Override
@@ -49,105 +64,90 @@ public class MoonView extends View {
 
         MoonResult result = calculateMoonPhase();
 
-        int imageIndex = result.phaseIndex;
-        double illumination = result.illumination;
-        boolean waxing = result.waxing;
+        currentBitmap = moonBitmaps[result.phaseIndex];
 
-        // Load correct moon image
-        int resId = getResources().getIdentifier(
-                "moon_" + imageIndex,
-                "drawable",
-                getContext().getPackageName());
-
-        Bitmap moonBitmap = null;
-        if (resId != 0) {
-            moonBitmap = BitmapFactory.decodeResource(getResources(), resId);
+        if (currentBitmap != null) {
+            drawMoon(canvas, currentBitmap, viewWidth, viewHeight);
         }
 
-        // Draw moon bitmap scaled
-        if (moonBitmap != null) {
-            int bmpWidth = moonBitmap.getWidth();
-            int bmpHeight = moonBitmap.getHeight();
-            float scale = Math.min((float) viewWidth / bmpWidth,
-                                   (float) viewHeight / bmpHeight);
+        drawPhaseText(canvas, viewWidth, viewHeight, result);
+    }
 
-            int drawWidth = (int) (bmpWidth * scale);
-            int drawHeight = (int) (bmpHeight * scale);
+    private void drawMoon(Canvas canvas, Bitmap bitmap, int viewWidth, int viewHeight) {
 
-            int left = (viewWidth - drawWidth) / 2;
-            int top = (viewHeight - drawHeight) / 2;
+        int bmpWidth = bitmap.getWidth();
+        int bmpHeight = bitmap.getHeight();
 
-            Bitmap scaled = Bitmap.createScaledBitmap(
-                    moonBitmap, drawWidth, drawHeight, true);
+        float scale = Math.min((float) viewWidth / bmpWidth,
+                (float) viewHeight / bmpHeight);
 
-            canvas.drawBitmap(scaled, left, top, paint);
-        }
+        int drawWidth = (int) (bmpWidth * scale);
+        int drawHeight = (int) (bmpHeight * scale);
 
-        // Draw phase text
+        Rect src = new Rect(0, 0, bmpWidth, bmpHeight);
+        Rect dst = new Rect(
+                (viewWidth - drawWidth) / 2,
+                (viewHeight - drawHeight) / 2,
+                (viewWidth + drawWidth) / 2,
+                (viewHeight + drawHeight) / 2
+        );
+
+        canvas.drawBitmap(bitmap, src, dst, paint);
+    }
+
+    private void drawPhaseText(Canvas canvas, int viewWidth, int viewHeight, MoonResult result) {
+
         paint.setColor(Color.DKGRAY);
         paint.setTextSize(Math.max(viewWidth, viewHeight) * 0.05f);
-        paint.setTextAlign(Paint.Align.CENTER);
 
-	String text = getPhaseName(imageIndex, illumination, waxing);
+        String text = getPhaseName(result.phaseIndex);
 
         canvas.drawText(text, viewWidth / 2f, viewHeight - 20f, paint);
     }
 
-    // =============================
-    // NEW MOON CALCULATION SECTION
-    // =============================
+    private MoonResult calculateMoonPhase() {
 
-private MoonResult calculateMoonPhase() {
+        long nowMillis = System.currentTimeMillis();
 
-    long nowMillis = System.currentTimeMillis();
+        double julianDate = nowMillis / MILLIS_PER_DAY + UNIX_EPOCH_JD;
 
-    // Convert Unix time to Julian Date
-    double julianDate = nowMillis / 86400000.0 + 2440587.5;
+        double daysSinceNew = julianDate - KNOWN_NEW_MOON_JD;
 
-    // Synodic month length
-    final double SYNODIC_MONTH = 29.530588853;
+        double lunarAge = daysSinceNew % SYNODIC_MONTH;
 
-    // Known new moon reference (2000-01-06 18:14 UTC)
-    final double KNOWN_NEW_MOON_JD = 2451550.1;
+        if (lunarAge < 0) {
+            lunarAge += SYNODIC_MONTH;
+        }
 
-    double daysSinceNew = julianDate - KNOWN_NEW_MOON_JD;
+        int phaseIndex = (int) Math.floor((lunarAge / SYNODIC_MONTH) * 29.0);
 
-    double lunarAge = daysSinceNew % SYNODIC_MONTH;
-    if (lunarAge < 0) {
-        lunarAge += SYNODIC_MONTH;
+        if (phaseIndex < 0) phaseIndex = 0;
+        if (phaseIndex > 28) phaseIndex = 28;
+
+        double phaseAngle = (lunarAge / SYNODIC_MONTH) * 2.0 * Math.PI;
+        double illumination = (1 - Math.cos(phaseAngle)) / 2.0 * 100.0;
+
+        boolean waxing = lunarAge <= SYNODIC_MONTH / 2.0;
+
+        return new MoonResult(phaseIndex, illumination, waxing);
     }
 
-    // Map to 0–28
-    int phaseIndex = (int)Math.floor((lunarAge / SYNODIC_MONTH) * 29.0);
+    private String getPhaseName(int index) {
 
-    if (phaseIndex < 0) phaseIndex = 0;
-    if (phaseIndex > 28) phaseIndex = 28;
+        if (index == 0) return getContext().getString(R.string.phase_new_moon);
+        if (index == 7) return getContext().getString(R.string.phase_first_quarter);
+        if (index == 14) return getContext().getString(R.string.phase_full_moon);
+        if (index == 21) return getContext().getString(R.string.phase_third_quarter);
 
-    // Illumination %
-    double phaseAngle = (lunarAge / SYNODIC_MONTH) * 2.0 * Math.PI;
-    double illumination = (1 - Math.cos(phaseAngle)) / 2.0 * 100.0;
+        if (index < 7) return getContext().getString(R.string.phase_waxing_crescent);
+        if (index < 14) return getContext().getString(R.string.phase_waxing_gibbous);
+        if (index < 21) return getContext().getString(R.string.phase_waning_gibbous);
 
-    boolean waxing = lunarAge <= SYNODIC_MONTH / 2.0;
-
-    return new MoonResult(phaseIndex, illumination, waxing);
-}
-
-
-private String getPhaseName(int index, double illumination, boolean waxing) {
-
-    if (index == 0) return getContext().getString(R.string.phase_new_moon);
-    if (index == 7) return getContext().getString(R.string.phase_first_quarter);
-    if (index == 14) return getContext().getString(R.string.phase_full_moon);
-    if (index == 21) return getContext().getString(R.string.phase_third_quarter);
-
-    if (index < 7) return getContext().getString(R.string.phase_waxing_crescent);
-    if (index < 14) return getContext().getString(R.string.phase_waxing_gibbous);
-    if (index < 21) return getContext().getString(R.string.phase_waning_gibbous);
-
-    return getContext().getString(R.string.phase_waning_crescent);
-}
+        return getContext().getString(R.string.phase_waning_crescent);
+    }
 
     private static class MoonResult {
+
         final int phaseIndex;
         final double illumination;
         final boolean waxing;
