@@ -172,16 +172,16 @@ public class MoonView extends View {
 
     private String getPhaseName(int imageNumber) {
 
-        if (Math.abs(imageNumber - 1141) <= 5)
+        if (Math.abs(imageNumber - 1133) <= 16)
             return getContext().getString(R.string.phase_new_moon);
 
-        if (Math.abs(imageNumber - 1318) <= 5)
+        if (Math.abs(imageNumber - 1310) <= 16)
             return getContext().getString(R.string.phase_first_quarter);
 
-        if (Math.abs(imageNumber - 1495) <= 5)
+        if (Math.abs(imageNumber - 1487) <= 16)
             return getContext().getString(R.string.phase_full_moon);
 
-        if (Math.abs(imageNumber - 1673) <= 5)
+        if (Math.abs(imageNumber - 1665) <= 16)
             return getContext().getString(R.string.phase_third_quarter);
 
         if (imageNumber < 1318)
